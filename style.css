@@ -1,0 +1,52 @@
+.rounded {
+  margin-top: 10%;
+  width: 20%;
+}
+.display-4{
+  text-align:center;
+}
+header .display-4, .display-5{
+  text-align: justify;
+  margin-left: 25%;
+}
+.display-5{
+  font-weight: lighter;
+}
+.jumbotron{
+  height: 250px;
+  background-image: url(images/jumbo2.jpg);
+}
+.figure{
+  width: inherit;
+}
+.accordion{
+  margin-top: 10%;
+}
+.btn-link:hover{
+  text-decoration: none;
+}
+.btn:not(:disabled):not(.disabled){
+  text-decoration: none;
+}
+.container .featured{
+  margin: 10% 0 2% 0;
+}
+.navbar-collapse{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navbar-collapse.collapse.show{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav-link{
+  font-size: 20px;
+}
+.sticky-bottom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
