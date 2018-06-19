@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
@@ -13,8 +14,9 @@
     <title>Aishwary Solanki</title>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
       <a class="navbar-brand logo" href="#"><i class="fas fa-user-circle fa-2x"></i></a>
+      <span class="navbar-brand mb-0 h1">Aishwarya Solanki</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,14 +30,17 @@
             <a class="nav-link" href="#feature">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a data-toggle="modal" data-target="#exampleModalCenter" class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
     </nav>
     <header>
-    <div class="jumbotron">
-          <img src="images/me.jpg" class="figure-img img-fluid rounded float-left" alt="Aishwary Solanki">
+    <div class="jumbotron shadow">
+          <img src="images/me.jpg" class="figure-img img-fluid rounded float-left shadow" alt="Aishwary Solanki">
     </div>
   <h1 class="display-4">Aishwarya Solanki</h1>
   <h2 class="display-5">Web Developer</h2>
@@ -44,7 +49,7 @@
   <div data-spy="scroll" data-target="#navbar" data-offset="0">
   <div class="accordion" id="accordionExample">
   <h1  id="aboutme" class="display-4">ABOUT ME</h1>
-  <div class="card">
+  <div class="card shadow">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -55,11 +60,40 @@
 
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <dl class="row">
+            <dt class="col-sm-3">1997</dt>
+            <dd class="col-sm-9">Born in Anand, Gujarat.</dd>
+
+            <dt class="col-sm-3">1998-</dt>
+            <dd class="col-sm-9">
+              Brought up in Vadodara, Gujarat.
+            </dd>
+
+            <dt class="col-sm-3">2013</dt>
+            <dd class="col-sm-9">
+              <p>Passed my 10th Standard topping the School.</p>
+              <p>Built my First Website- A jwellery store Landing Page</p>
+            </dd>
+
+            <dt class="col-sm-3 text-truncate">2015</dt>
+            <dd class="col-sm-9">
+              <p>Passed 12th Grade.</p>
+              <p>Cracked JEE Mains.</p>
+              <p>Got admitted to SVNIT, Surat for B.Tech Engineering in Computer Engg.</p>
+            </dd>
+
+            <dt class="col-sm-3">Currently</dt>
+            <dd class="col-sm-9">
+              <p>Interning at MeshEdu.org</p>
+              <p>Pursuing Front-End Nanodegree</p>
+              <p>Contriuting to Open Source</p>
+              <p>Enjoying Vacations</p>
+            </dd>
+          </dl>
       </div>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow">
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -69,11 +103,47 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <dl class="row">
+          <dt class="col-sm-3">2013</dt>
+          <dd class="col-sm-9">Knows C, C++. Made academic level projects.</dd>
+
+          <dt class="col-sm-3">2014</dt>
+          <dd class="col-sm-9">
+            Started creating websites with HTML, CSS, JS, jQuery.
+          </dd>
+
+          <dt class="col-sm-3">2015</dt>
+          <dd class="col-sm-9">
+            <p>Knows Java now, makes some over the top academic Projects.</p>
+            <p>Gets Basic Exposure to Data Structure</p>
+            <p>Also, College level Fundamentals of Computer Engg.</p>
+          </dd>
+
+            <dt class="col-sm-3 text-truncate">2016</dt>
+            <dd class="col-sm-9">
+              <p>Knows Matlab, made Text Recognition Projects.</p>
+              <p>Uses LAMP stack for website development.</p>
+            </dd>
+
+            <dt class="col-sm-3">2017</dt>
+            <dd class="col-sm-9">
+              <p>Masters JavaScript, jQuery</p>
+              <p>Works with Node, Express, MongoDB</p>
+              <p>Makes Websites with MEN stack</p>
+            </dd>
+
+            <dt class="col-sm-3 text-truncate">2018</dt>
+            <dd class="col-sm-9">
+              <p>Knows React, Redux</p>
+              <p>Makes websites with MERN stack now</p>
+              <p>Making a PWA for the internship built on React</p>
+              <p>Contriuting to an Open Source Project as a React Developer.</p>
+            </dd>
+          </dl>
       </div>
     </div>
   </div>
-  <div class="card">
+  <div class="card shadow">
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -83,7 +153,34 @@
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <dl class="row">
+            <dt class="col-sm-3">(apart from coding)I like to</dt>
+            <dd class="col-sm-9">
+              <p>Swim</p>
+              <p>Cook</p>
+              <p>Listen to Music</p>
+              <p>Write poetries</p>
+              <p>Reading Psychology books</p>
+            </dd>
+
+            <dt class="col-sm-3">Music Type</dt>
+            <dd class="col-sm-9">
+              <p>Mostly 90's Hip Hop, Rock, Rock n' Roll, Psychedelic Rock and sometimes Ambient Pop.</p>
+              <p>Fangirl: RHCP, Tame Impala, Eminem.</p>
+            </dd>
+
+            <dt class="col-sm-3">Favourite Football Teams</dt>
+            <dd class="col-sm-9">
+              <p>Die Mannschaft</p>
+              <p>Real Madrid</p>
+            </dd>
+
+            <dt class="col-sm-3">Will be ready to leave the world</dt>
+            <dd class="col-sm-9">
+              <p>When I get a signed t-shirt from Mesut Özil</p>
+              <p>Or When i see Christian Bale IRL.</p>
+            </dd>
+          </dl>
       </div>
     </div>
   </div>
@@ -93,134 +190,148 @@
 <div class="card-columns">
   <div class="card">
     <img class="card-img-top" src="images/colorGame.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/OQqZmK">RGB Color Game</a></h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
-  <div class="card p-3">
-    <blockquote class="blockquote mb-0 card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
+  <div class="card">
+    <img class="card-img-top" src="images/scatterplot.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/scatterplot">Scatterplot</a></h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="images/photoGrid.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/WMdZjK">Photo grid</a></h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-      <footer class="blockquote-footer">
-        <small>
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
+  <div class="card">
+    <img class="card-img-top" src="images/patatap.jpg" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/patatapClone">Patatap Clone</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
   </div>
-  <div class="card text-center">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+  <div class="card">
+    <img class="card-img-top" src="images/histogram.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/histogram">Histogram</a></h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
     <img class="card-img" src="images/todoList.jpg" alt="Card image">
-  </div>
-  <div class="card p-3 text-right">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/bvMVRG">Todo List</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src=".../100px160/" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
+    <img class="card-img" src="images/piechart.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/pie-chart">Pie Chart</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3 batman">
+  <div class="card-body">
+      <img class="card-img" src="images/batman.jpg" alt="Card image">
+    <p class="card-text">"Sometimes the truth isn't good enough, sometimes people deserve more. Sometimes people deserve to have their faith rewarded...."</p>
+  </div>
+</div>
+  <div class="card">
+    <img class="card-img" src="images/countLetters.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/Freq_app">Letter Count</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="images/yelpcamp.jpg" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/YelpCamp">YelpCamp</a></h5>
       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
-  <div class="card p-3">
-    <blockquote class="blockquote mb-0 card-body">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
   <div class="card">
-    <img class="card-img-top" src=".../100px160/" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-      <footer class="blockquote-footer">
-        <small>
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
-  <div class="card text-center">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+    <img class="card-img-top" src="images/warbler.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Twitter-clone">Twitter Clone</a></h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img" src=".../100px260/" alt="Card image">
-  </div>
-  <div class="card p-3 text-right">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    <img class="card-img" src="images/animalCard.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/RQxmeZ">Animal Card</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
+  <div class="card">
+    <img class="card-img" src="images/blog.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Blog-App">Blog App</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img" src="images/todoMEN.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/todo-list">Todo-List(MEN)</a></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container containerSkills">
+  <h1 id="skills" class="display-4 skill">Skill Set</h1>
+  <h4 class="skills" class="display-5 skill">HTML</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+</div>
+<h4 class="skills" class="display-5 skill">CSS</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+<h4 class="skills" class="display-5 skill">JavaScript</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+</div>
+<h4 class="skills" class="display-5 skill">React & Redux</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+</div>
+<h4 class="skills" class="display-5 skill">jQuery</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+<h4 class="skills" class="display-5 skill">D3 & SVG</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+</div>
+<h4 class="skills" class="display-5 skill">MEN Stack</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
 </div>
 </div>
 </div>
 </div>
 <footer id="contact">
-<nav class="navbar sticky-bottom navbar-dark bg-dark">
+<nav class="navbar sticky-bottom navbar-dark bg-dark shadow">
   <ul class="nav nav-pills">
   <li class="nav-item">
     <a data-toggle="tooltip" data-placement="top" title="Medium" class="nav-link" href="https://medium.com/@pennywise97"><i class="fab fa-medium"></i></a>
@@ -243,5 +354,44 @@
 </ul>
 </nav>
 </footer>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalCenterTitle">Send your thoughts....</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="email" class="form-control"  placeholder="Email">
+      </div>
+    </div>
+      <div class="form-row">
+          <div class="form-group col-md-">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+
+    <div class="input-group">
+      <div class="input-group-prepend">
+      </div>
+      <textarea name="body" class="form-control" aria-label="With textarea" placeholder="Enter Your Message Here"></textarea>
+    </div>
+    </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+  <button type="button" class="btn btn-lg btn-primary">Send</button>
+</div>
+</div>
+</div>
+</div>
   </body>
 </html>

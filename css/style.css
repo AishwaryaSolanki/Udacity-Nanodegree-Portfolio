@@ -31,16 +31,6 @@ header .display-4, .display-5{
 .container .featured{
   margin: 10% 0 2% 0;
 }
-.navbar-collapse{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navbar-collapse.collapse.show{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 .nav-link{
   font-size: 20px;
 }
@@ -49,4 +39,255 @@ header .display-4, .display-5{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.containerSkills{
+  margin-top: 10%;
+}
+.display-4.skill{
+  margin-bottom: 5%;
+}
+h4{
+  margin-top: 2%;
+}
+.progress:last-of-type{
+  margin-bottom: 10%;
+}
+.batman{
+  text-align: center;
+}
+html {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px){
+  .rounded {
+    margin-top: 40%;
+    width: 40%;
+  }
+  header .display-4, .display-5{
+    font-size: 30px;
+    text-align: justify;
+  }
+  .accordion{
+    margin-top: 30%;
+  }
+    .accordion h1{
+        font-size: 30px;
+    }
+    .container .featured{
+      font-size: 30px;
+    }
+    .display-4.skill{
+      font-size: 30px;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 500px){
+  .rounded {
+    margin-top: 30%;
+    width: 40%;
+  }
+  header .display-4, .display-5{
+    font-size: 30px;
+    text-align: justify;
+  }
+  .accordion{
+    margin-top: 30%;
+  }
+    .accordion h1{
+        font-size: 30px;
+    }
+    .container .featured{
+      font-size: 30px;
+    }
+    .display-4.skill{
+      font-size: 30px;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px){
+  .rounded {
+    margin-top: 25%;
+    width: 40%;
+  }
+  header .display-4, .display-5{
+    font-size: 30px;
+    text-align: justify;
+  }
+  .accordion{
+    margin-top: 30%;
+  }
+    .accordion h1{
+        font-size: 30px;
+    }
+    .container .featured{
+      font-size: 30px;
+    }
+    .display-4.skill{
+      font-size: 30px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px){
+  .rounded {
+    margin-top: 20%;
+    width: 30%;
+  }
+  header .display-4, .display-5{
+    font-size: 35px;
+    margin-left: 40%;
+    text-align: justify;
+  }
+  .accordion{
+    margin-top: 30%;
+  }
+    .accordion h1{
+        font-size: 35px;
+    }
+    .container .featured{
+      font-size: 35px;
+    }
+    .display-4.skill{
+      font-size: 30px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 850px){
+  .rounded {
+    margin-top: 15%;
+    width: 30%;
+  }
+  .display-4{
+    text-align:center;
+  }
+  header .display-4, .display-5{
+    text-align: justify;
+    margin-left: 25%;
+  }
+  .display-5{
+    font-weight: lighter;
+  }
+  .jumbotron{
+    height: 250px;
+    background-image: url(../images/jumbo2.jpg);
+  }
+  .figure{
+    width: inherit;
+  }
+  .accordion{
+    margin-top: 10%;
+  }
+  .btn-link:hover{
+    text-decoration: none;
+  }
+  .btn:not(:disabled):not(.disabled){
+    text-decoration: none;
+  }
+  .container .featured{
+    margin: 10% 0 2% 0;
+  }
+  .nav-link{
+    font-size: 20px;
+  }
+  .sticky-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .containerSkills{
+    margin-top: 10%;
+  }
+  .display-4.skill{
+    margin-bottom: 5%;
+  }
+  h4{
+    margin-top: 2%;
+  }
+  .progress:last-of-type{
+    margin-bottom: 10%;
+  }
+  .batman{
+    text-align: center;
+  }
+  html {
+    font-size: 1rem;
+  }
+
+}
+@media screen and (min-width: 851px){
+  .rounded {
+    margin-top: 10%;
+    width: 20%;
+  }
+  .display-4{
+    text-align:center;
+  }
+  header .display-4, .display-5{
+    text-align: justify;
+    margin-left: 25%;
+  }
+  .display-5{
+    font-weight: lighter;
+  }
+  .jumbotron{
+    height: 250px;
+    background-image: url(../images/jumbo2.jpg);
+  }
+  .figure{
+    width: inherit;
+  }
+  .accordion{
+    margin-top: 10%;
+  }
+  .btn-link:hover{
+    text-decoration: none;
+  }
+  .btn:not(:disabled):not(.disabled){
+    text-decoration: none;
+  }
+  .container .featured{
+    margin: 10% 0 2% 0;
+  }
+  .nav-link{
+    font-size: 20px;
+  }
+  .sticky-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .containerSkills{
+    margin-top: 10%;
+  }
+  .display-4.skill{
+    margin-bottom: 5%;
+  }
+  h4{
+    margin-top: 2%;
+  }
+  .progress:last-of-type{
+    margin-bottom: 10%;
+  }
+  .batman{
+    text-align: center;
+  }
+  html {
+    font-size: 1rem;
+  }
+
+}
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }
