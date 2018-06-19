@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper-utils.js" type="text/javascript"></script>
@@ -48,7 +51,7 @@
   <div class="container">
   <div data-spy="scroll" data-target="#navbar" data-offset="0">
   <div class="accordion" id="accordionExample">
-  <h1  id="aboutme" class="display-4">ABOUT ME</h1>
+  <h1 id="aboutme" class="display-4">ABOUT ME</h1>
   <div class="card shadow">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
@@ -174,17 +177,12 @@
               <p>Die Mannschaft</p>
               <p>Real Madrid</p>
             </dd>
-
-            <dt class="col-sm-3">Will be ready to leave the world</dt>
-            <dd class="col-sm-9">
-              <p>When I get a signed t-shirt from Mesut Özil</p>
-              <p>Or When i see Christian Bale IRL.</p>
-            </dd>
           </dl>
       </div>
     </div>
   </div>
 </div>
+
 <div class="container">
 <h1 id="feature" class="display-4 featured">Featured Work</h1>
 <div class="card-columns">
@@ -242,12 +240,6 @@
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
-  <div class="card text-white bg-dark mb-3 batman">
-  <div class="card-body">
-      <img class="card-img" src="images/batman.jpg" alt="Card image">
-    <p class="card-text">"Sometimes the truth isn't good enough, sometimes people deserve more. Sometimes people deserve to have their faith rewarded...."</p>
-  </div>
-</div>
   <div class="card">
     <img class="card-img" src="images/countLetters.png" alt="Card image">
     <div class="card-body shadow">
@@ -297,8 +289,9 @@
   </div>
 </div>
 </div>
-<div class="container containerSkills">
-  <h1 id="skills" class="display-4 skill">Skill Set</h1>
+
+<div id="skills" class="container containerSkills">
+  <h1 class="display-4 skill">Skill Set</h1>
   <h4 class="skills" class="display-5 skill">HTML</h4>
 <div class="progress shadow">
   <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
@@ -330,6 +323,7 @@
 </div>
 </div>
 </div>
+
 <footer id="contact">
 <nav class="navbar sticky-bottom navbar-dark bg-dark shadow">
   <ul class="nav nav-pills">
@@ -363,32 +357,33 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
+
 <div class="modal-body">
-  <form>
+  <form action="#">
     <div class="form-row">
       <div class="form-group col-md-6">
-        <input type="email" class="form-control"  placeholder="Email">
+        <input type="email" class="form-control"  placeholder="Email" required name="email" >
       </div>
     </div>
       <div class="form-row">
           <div class="form-group col-md-">
-            <input type="text" class="form-control" placeholder="First name">
+            <input type="text" class="form-control" placeholder="First name"  name="first"  required>
           </div>
           <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="Last name">
+            <input type="text" class="form-control" placeholder="Last name" name="last" >
           </div>
         </div>
 
     <div class="input-group">
       <div class="input-group-prepend">
       </div>
-      <textarea name="body" class="form-control" aria-label="With textarea" placeholder="Enter Your Message Here"></textarea>
+      <textarea name="body" class="form-control" aria-label="With textarea" placeholder="Enter Your Message Here" name="textArea" required></textarea>
     </div>
     </form>
 </div>
 <div class="modal-footer">
   <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
-  <button type="button" class="btn btn-lg btn-primary">Send</button>
+  <button type="submit" class="btn btn-lg btn-primary">Send</button>
 </div>
 </div>
 </div>
